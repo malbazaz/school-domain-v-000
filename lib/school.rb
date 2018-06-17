@@ -28,10 +28,9 @@ def grade(grades)
 end 
 
 def sort
-new_one = @school.collect do |grades,names|
+@school.collect do |grades,names|
   names.sort 
 end 
-new_one 
 end 
 
 
