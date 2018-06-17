@@ -28,9 +28,8 @@ def grade(grades)
 end 
 
 def sort
-@school.collect do |grades,names|
-"#{grades} => #{names.sort}" 
-end 
+@school.each do |grades,names|
+names.sort 
 
 end 
 
