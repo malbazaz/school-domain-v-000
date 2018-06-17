@@ -16,7 +16,8 @@ end
 
 
 def add_student(name, grade)
-if @school[grade] != []
+if @school.keys.include?(grade)
+else 
 @school[grade] = []
 end 
 @school[grade] << name 
