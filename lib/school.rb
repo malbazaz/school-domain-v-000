@@ -10,7 +10,7 @@ def initialize(school_name)
 end 
 
 def roster
-@roster = {}
+@school = {}
 end 
 
 
