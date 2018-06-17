@@ -19,6 +19,7 @@ new_school= {}
 new_school[grade] = []
 new_school[grade] << name 
 new_school
+@school = {}
 @school = new_school
 end 
 
