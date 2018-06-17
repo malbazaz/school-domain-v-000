@@ -18,9 +18,8 @@ end
 def add_student(name, grade)
 if @school[grade] != []
 @school[grade] = []
-else 
-@school[grade] << name 
 end 
+@school[grade] << name 
 end 
 
 end 
