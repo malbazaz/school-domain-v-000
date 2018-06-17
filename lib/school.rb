@@ -31,6 +31,7 @@ def sort
 @school.collect do |grades,names|
 @school[grades] = names.sort 
 end 
+@school
 end 
 
 
