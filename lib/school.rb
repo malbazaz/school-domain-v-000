@@ -30,7 +30,7 @@ end
 def sort
 @school.each do |grades,names|
 names.sort 
-
+end 
 end 
 
 
