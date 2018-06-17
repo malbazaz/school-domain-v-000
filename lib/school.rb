@@ -6,11 +6,12 @@ attr_accessor :school, :add_student
 
 
 def initialize(school_name)
-  @school1 = school_name 
+  @school = school_name
+  @school = {}
 end 
 
 def roster
-@school1 = {}
+@school
 end 
 
 
