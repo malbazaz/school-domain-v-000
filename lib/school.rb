@@ -16,8 +16,8 @@ end
 
 def add_student(name, grade)
 
-school[grade] = []
-school[grade] << name 
+@school[grade] = []
+@school[grade] << name 
 
 end 
 
