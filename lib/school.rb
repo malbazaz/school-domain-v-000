@@ -29,7 +29,7 @@ end
 
 def sort
 @school.collect do |grades,names|
-  names.sort 
+  grades.sort 
 end 
 @school 
 end 
