@@ -15,8 +15,8 @@ end
 
 
 def add_student(name, grade)
-@school.roster = {}
-school[grade]=name 
+@school[grade]=[]
+@school[grade] << name 
 
 end 
 
