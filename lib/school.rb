@@ -23,4 +23,13 @@ end
 @school[grade] << name 
 end 
 
+def grade(grade)
+@school[grade]
+end 
+
+def sort
+@school.sort
+end 
+
+
 end 
